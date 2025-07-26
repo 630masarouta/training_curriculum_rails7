@@ -1,4 +1,4 @@
 class Plan < ApplicationRecord
-  validates :plan, presence: true
+  validates :content, presence: true
   validates :date, presence: true
 end
